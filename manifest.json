@@ -1,6 +1,6 @@
 {
-    "name": "fsa_ui",
-    "short_name": "fsa_ui",
+    "name": "nestui_web",
+    "short_name": "nestui_web",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
