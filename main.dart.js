@@ -94883,7 +94883,7 @@ H(a){var s=null
 return A.c6(A.b([A.b5(this.c,s,s,s,s,A.da(s,s,B.db,s,s,s,s,s,s,s,s,10,s,s,B.dh,s,s,!0,s,s,s,s,s,s,s,s),s,s),A.b5(this.d,s,s,s,s,B.fN,s,s)],t.p),B.aj,B.m,B.r)}}
 A.DO.prototype={
 ac(){var s="ioc/needassistance",r=$.ab()
-return new A.IZ(new A.cs(new A.bw("ioc/needassistance/#",B.ac,B.R),r),new A.cs(new A.bw(s,B.ac,B.R),r),new A.cs(new A.bw('{"header":"<UUID>",\r "boday":"<Optional Data>"}',B.ac,B.R),r),new A.cs(new A.bw(s,B.ac,B.R),r),new A.cs(new A.bw("1",B.ac,B.R),r),new A.cs(new A.bw("42",B.ac,B.R),r),new A.cs(new A.bw("1",B.ac,B.R),r),new A.cs(new A.bw("1",B.ac,B.R),r),new A.cs(new A.bw("0",B.ac,B.R),r),new A.cs(new A.bw("0",B.ac,B.R),r),new A.cs(new A.bw('{"incident_id":"1234"}',B.ac,B.R),r),B.bT,null,null)}}
+return new A.IZ(new A.cs(new A.bw("ioc/needassistance/#",B.ac,B.R),r),new A.cs(new A.bw(s,B.ac,B.R),r),new A.cs(new A.bw('{"header":"1a2b3c4d-beef-4002-8348-020000010100",\r "boday":"<Optional Data>"}',B.ac,B.R),r),new A.cs(new A.bw(s,B.ac,B.R),r),new A.cs(new A.bw("1",B.ac,B.R),r),new A.cs(new A.bw("42",B.ac,B.R),r),new A.cs(new A.bw("1",B.ac,B.R),r),new A.cs(new A.bw("1",B.ac,B.R),r),new A.cs(new A.bw("0",B.ac,B.R),r),new A.cs(new A.bw("0",B.ac,B.R),r),new A.cs(new A.bw('{"incident_id":"1234"}',B.ac,B.R),r),B.bT,null,null)}}
 A.IZ.prototype={
 ar(){var s,r=this
 r.aL()
@@ -95042,7 +95042,7 @@ this.h8()}}
 A.UK.prototype={}
 A.Eq.prototype={
 ac(){var s=$.ab()
-return new A.Jy(new A.cs(new A.bw("http://localhost:8000",B.ac,B.R),s),new A.cs(new A.bw('{\n  "topic": "ioc/needassistance",\n  "payload": "{\\"header\\": \\"00040348-e89b-0001-0001-426614174000\\", \\"body\\": {\\"incident_id\\":\\"1234\\"}}",\n  "qos": 0\n}',B.ac,B.R),s),new A.cs(new A.bw('{\n  "topic": "ioc/#",\n  "qos": 0\n}',B.ac,B.R),s),new A.cs(new A.bw("ioc/#",B.ac,B.R),s),new A.cs(new A.bw("external.example.com",B.ac,B.R),s),new A.cs(new A.bw("1883",B.ac,B.R),s),new A.cs(new A.bw("ioc/#\nalerts/critical",B.ac,B.R),s),new A.cs(new A.bw('{\n  "host": "external.example.com",\n  "port": 1883\n}',B.ac,B.R),s),new A.cs(new A.bw('{\n  "host": "target.example.com",\n  "port": 1883,\n  "route_topic_pattern": "ioc/#"\n}',B.ac,B.R),s),new A.cs(new A.bw("ioc/#",B.ac,B.R),s),null,null)}}
+return new A.Jy(new A.cs(new A.bw("http://localhost:8000",B.ac,B.R),s),new A.cs(new A.bw('{\n  "topic": "ioc/needassistance",\n  "payload": "{\\"header\\": \\"deadbeef-cafe-4004-8114-030000030200\\", \\"body\\": {\\"incident_id\\":\\"1234\\"}}",\n  "qos": 0\n}',B.ac,B.R),s),new A.cs(new A.bw('{\n  "topic": "ioc/#",\n  "qos": 0\n}',B.ac,B.R),s),new A.cs(new A.bw("ioc/#",B.ac,B.R),s),new A.cs(new A.bw("external.example.com",B.ac,B.R),s),new A.cs(new A.bw("1883",B.ac,B.R),s),new A.cs(new A.bw("ioc/#\nalerts/critical",B.ac,B.R),s),new A.cs(new A.bw('{\n  "host": "external.example.com",\n  "port": 1883\n}',B.ac,B.R),s),new A.cs(new A.bw('{\n  "host": "target.example.com",\n  "port": 1883,\n  "route_topic_pattern": "ioc/#"\n}',B.ac,B.R),s),new A.cs(new A.bw("ioc/#",B.ac,B.R),s),null,null)}}
 A.Jy.prototype={
 ar(){this.aL()
 this.d=A.aLJ(13,this)},
