@@ -9,27 +9,26 @@ wss_port = 8884
 notes   = "Free public broker — no auth required"
 
 [[broker]]
-name    = "Eclipse Mosquitto"
-host    = "test.mosquitto.org"
-ws_port = 8080
-wss_port = 8081
-notes   = "Eclipse Foundation public test broker"
-
-[[broker]]
 name    = "EMQX Public"
 host    = "broker.emqx.io"
 ws_port = 8083
-wss_port = 8084
 notes   = "EMQX public broker — no auth required"
 
 [[broker]]
 name    = "EMQX Public (TLS)"
 host    = "broker.emqx.io"
-ws_port = 8084
+wss_port = 8084
 notes   = "EMQX public broker — WSS/TLS"
 
 [[broker]]
-name    = "Mosquitto (TLS)"
+name    = "Eclipse Mosquitto"
 host    = "test.mosquitto.org"
-ws_port = 8081
-notes   = "Eclipse Mosquitto with TLS — cert required"
+ws_port = 8080
+notes   = "Eclipse Foundation public test broker"
+
+
+[[broker]]
+name    = "Eclipse Mosquitto (TLS)"
+host    = "test.mosquitto.org"
+wss_port = 8081
+notes   = "Eclipse Mosquitto with TLS — cert required.  Install from http://test.mosquitto.org/ssl/mosquitto.org.crt"
