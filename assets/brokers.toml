@@ -2,33 +2,40 @@
 # Add or remove brokers here — the app will load this list on startup.
 
 [[broker]]
-name    = "HiveMQ Public"
-host    = "broker.hivemq.com"
-ws_port = 8000
-wss_port = 8884
-notes   = "Free public broker — no auth required"
+name              = "HiveMQ Public"
+host              = "broker.hivemq.com"
+ws_port           = 8000
+wss_port          = 8884
+path              = "/mqtt"
+notes             = "Free public broker — no auth required"
 
 [[broker]]
-name    = "EMQX Public"
-host    = "broker.emqx.io"
-ws_port = 8083
-notes   = "EMQX public broker — no auth required"
+name              = "EMQX Public"
+host              = "broker.emqx.io"
+ws_port           = 8083
+path              = "/mqtt"
+notes             = "EMQX public broker — no auth required"
 
 [[broker]]
-name    = "EMQX Public (TLS)"
-host    = "broker.emqx.io"
-wss_port = 8084
-notes   = "EMQX public broker — WSS/TLS"
+name              = "EMQX Public (TLS)"
+host              = "broker.emqx.io"
+wss_port          = 8084
+path              = "/mqtt"
+notes             = "EMQX public broker — no auth required"
+certificate_hint  = "Download CA from https://www.emqx.com/en/mqtt/public-mqtt5-broker"
 
 [[broker]]
-name    = "Eclipse Mosquitto"
-host    = "test.mosquitto.org"
-ws_port = 8080
-notes   = "Eclipse Foundation public test broker"
-
+name              = "Eclipse Mosquitto"
+host              = "test.mosquitto.org"
+ws_port           = 8081
+path              = "/mqtt"
+notes             = "Eclipse Foundation public test broker"
+certificate_hint  = "Download CA from https://test.mosquitto.org/ssl/mosquitto.org.crt"
 
 [[broker]]
-name    = "Eclipse Mosquitto (TLS)"
-host    = "test.mosquitto.org"
-wss_port = 8081
-notes   = "Eclipse Mosquitto with TLS — cert required.  Install from http://test.mosquitto.org/ssl/mosquitto.org.crt"
+name              = "Eclipse Mosquitto (TLS)"
+host              = "test.mosquitto.org"
+wss_port          = 8081
+path              = "/mqtt"
+notes             = "Eclipse Foundation public test broker"
+certificate_hint  = "Download CA from https://test.mosquitto.org/ssl/mosquitto.org.crt"
