@@ -97104,7 +97104,7 @@ return B.c.gv(s.a)^B.c.gv(s.b)^B.c.gv(s.c)^B.c.gv(s.d)},
 j(a){return this.b}}
 A.EX.prototype={
 ad(){var s="broker.hivemq.com",r=$.ac(),q=B.b.ga6(B.q5),p=A.avt($.b6Z,null,"  "),o=A.avt($.b7h,null,"  ")
-return new A.K6(new A.ch(new A.bp("http://localhost:8000",B.ab,B.R),r),q,new A.ch(new A.bp(p,B.ab,B.R),r),new A.ch(new A.bp(o,B.ab,B.R),r),new A.ch(new A.bp("ioc/#",B.ab,B.R),r),new A.ch(new A.bp(s,B.ab,B.R),r),new A.ch(new A.bp("1883",B.ab,B.R),r),new A.ch(new A.bp("ioc/#\nalerts/critical",B.ab,B.R),r),new A.ch(new A.bp('{\n  "host": "broke.hivemq.com",\n  "port": 1883\n}',B.ab,B.R),r),new A.ch(new A.bp('{\n  "destination_host": "broker.hivemq.com",\n  "destination_port": 1883,\n  "route_topic_pattern": "ioc/#"\n}',B.ab,B.R),r),new A.ch(new A.bp(s,B.ab,B.R),r),new A.ch(new A.bp("ioc/#",B.ab,B.R),r))}}
+return new A.K6(new A.ch(new A.bp("http://localhost:8000",B.ab,B.R),r),q,new A.ch(new A.bp(p,B.ab,B.R),r),new A.ch(new A.bp(o,B.ab,B.R),r),new A.ch(new A.bp("ioc/#",B.ab,B.R),r),new A.ch(new A.bp(s,B.ab,B.R),r),new A.ch(new A.bp("1883",B.ab,B.R),r),new A.ch(new A.bp("ioc/#\nalerts/critical",B.ab,B.R),r),new A.ch(new A.bp('{\n  "host": "broker.hivemq.com",\n  "port": 1883\n}',B.ab,B.R),r),new A.ch(new A.bp('{\n  "destination_host": "broker.hivemq.com",\n  "destination_port": 1883,\n  "route_topic_pattern": "ioc/#"\n}',B.ab,B.R),r),new A.ch(new A.bp(s,B.ab,B.R),r),new A.ch(new A.bp("ioc/#",B.ab,B.R),r))}}
 A.K6.prototype={
 kb(a,b,c){return this.aaj(a,b,c)},
 m1(a,b){return this.kb(a,b,null)},
