@@ -4,7 +4,7 @@
 [[broker]]
 name              = "HiveMQ Public"
 host              = "broker.hivemq.com"
-ws_port           = 8000
+ws_port           = 8080
 wss_port          = 8884
 path              = "/mqtt"
 notes             = "Free public broker — no auth required"

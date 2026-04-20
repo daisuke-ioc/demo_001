@@ -96605,7 +96605,7 @@ j.toString
 j=A.kJ(j,!1,t.K6)
 p=B.c.cG(q.d.a.a)
 o=A.t3(q.e.a.a,null)
-if(o==null)o=8000
+if(o==null)o=8080
 n=B.c.cG(q.f.a.a)
 if(n.length===0)n=null
 m=q.CW
@@ -97127,7 +97127,7 @@ return B.c.gv(s.a)^B.c.gv(s.b)^B.c.gv(s.c)^B.c.gv(s.d)},
 j(a){return this.b}}
 A.EX.prototype={
 ad(){var s="ioc/needassistance",r="broker.hivemq.com",q=$.ac(),p=B.b.ga5(B.qg),o=A.avu($.b72,null,"  "),n=A.avu($.b7m,null,"  ")
-return new A.K6(new A.ch(new A.bp("http://localhost:8000",B.ab,B.R),q),p,new A.ch(new A.bp(o,B.ab,B.R),q),new A.ch(new A.bp(n,B.ab,B.R),q),new A.ch(new A.bp(s,B.ab,B.R),q),new A.ch(new A.bp(r,B.ab,B.R),q),new A.ch(new A.bp("1883",B.ab,B.R),q),new A.ch(new A.bp("ioc/needassistance\nalerts/critical",B.ab,B.R),q),new A.ch(new A.bp('{\n  "host": "broker.hivemq.com",\n  "port": 1883\n}',B.ab,B.R),q),new A.ch(new A.bp('{\n  "destination_host": "broker.hivemq.com",\n  "destination_port": 1883,\n  "route_topic_pattern": "ioc/needassistance"\n}',B.ab,B.R),q),new A.ch(new A.bp(r,B.ab,B.R),q),new A.ch(new A.bp(s,B.ab,B.R),q))}}
+return new A.K6(new A.ch(new A.bp("http://localhost:8080",B.ab,B.R),q),p,new A.ch(new A.bp(o,B.ab,B.R),q),new A.ch(new A.bp(n,B.ab,B.R),q),new A.ch(new A.bp(s,B.ab,B.R),q),new A.ch(new A.bp(r,B.ab,B.R),q),new A.ch(new A.bp("1883",B.ab,B.R),q),new A.ch(new A.bp("ioc/needassistance\nalerts/critical",B.ab,B.R),q),new A.ch(new A.bp('{\n  "host": "broker.hivemq.com",\n  "port": 1883\n}',B.ab,B.R),q),new A.ch(new A.bp('{\n  "destination_host": "broker.hivemq.com",\n  "destination_port": 1883,\n  "route_topic_pattern": "ioc/needassistance"\n}',B.ab,B.R),q),new A.ch(new A.bp(r,B.ab,B.R),q),new A.ch(new A.bp(s,B.ab,B.R),q))}}
 A.K6.prototype={
 kc(a,b,c){return this.aaj(a,b,c)},
 m1(a,b){return this.kc(a,b,null)},
@@ -97306,7 +97306,7 @@ r=null
 try{r=A.fM(s,0,null)}catch(p){r=A.fM("http://"+A.j(s),0,null)}o=r
 m=m.e
 n=m?"https":"http"
-q.scB(o.tH(m?443:8000,n).gnC())},
+q.scB(o.tH(m?443:8080,n).gnC())},
 $S:0}
 A.azm.prototype={
 $1(a){var s=this.a
